@@ -93,7 +93,8 @@ Resources:
               Service: ecs-tasks.amazonaws.com
             Action: 'sts:AssumeRole'
       ManagedPolicyArns:
-        - 'arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy'
+  #      - 'arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy'
+         - 'arn:aws:iam::858855954940:policy/DemoSecretPolicy'
 
   # Create a TaskDefinition with container details
   TaskDefinition:
